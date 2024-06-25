@@ -1,0 +1,24 @@
+:root {
+    --primary: #4647A1;
+    --secondary: #7e80f7;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+
+body {
+    font-family: "Wendy One", sans-serif;
+    color:var(--primary);
+    background:white;
+}
+
+
+a, img {display:block;}
+a { text-decoration: none; color:var(--primary);}
+
+html { scroll-behavior: smooth; }
